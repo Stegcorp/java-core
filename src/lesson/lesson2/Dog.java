@@ -1,16 +1,13 @@
 package lesson.lesson2;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 @NoArgsConstructor
 @Getter
 @Setter
 @ToString
-@FieldDefaults
+@FieldDefaults(level = AccessLevel.PUBLIC)
 
 public class Dog {
     String name;
