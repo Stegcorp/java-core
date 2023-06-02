@@ -9,8 +9,8 @@ import lombok.experimental.FieldDefaults;
 @ToString
 @FieldDefaults(level = AccessLevel.PUBLIC)
 public class Post {
-    private int userId;
-    public int id;
-    public String title;
-    public String body;
+     int userId;
+     int id;
+     String title;
+     String body;
 }
