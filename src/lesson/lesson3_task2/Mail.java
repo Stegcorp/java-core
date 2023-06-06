@@ -24,7 +24,7 @@ public class Mail {
         skills.add(0,new Skills("js",10));
         skills.add(0,new Skills("c++",10));
 
-        Model model = new Model(2,"vasya","Pupkin","asd@asd.com", (byte) 31, Gender.MALE,
+        Model model = new Model(2,"vasya","Pupkin","asd@asd.com",  31, Gender.MALE,
                 new Car("toyota",2021,250),skills);
         System.out.println(model);
     }

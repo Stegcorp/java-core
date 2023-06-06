@@ -21,7 +21,7 @@ public class Model {
         Car car;
         ArrayList<Skills> skills= new ArrayList<>();
 
-    public Model(int id, String name, String surname, String email, byte age, Gender gender, Car car, ArrayList<Skills> skills) {
+    public Model(int id, String name, String surname, String email, int age, Gender gender, Car car, ArrayList<Skills> skills) {
         this.id = id;
         this.name = name;
         this.surname = surname;
@@ -32,3 +32,4 @@ public class Model {
         this.skills = skills;
     }
 }
+
