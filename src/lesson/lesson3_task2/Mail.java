@@ -27,5 +27,6 @@ public class Mail {
         Model model = new Model(2,"vasya","Pupkin","asd@asd.com",  31, Gender.MALE,
                 new Car("toyota",2021,250),skills);
         System.out.println(model);
+
     }
 }
